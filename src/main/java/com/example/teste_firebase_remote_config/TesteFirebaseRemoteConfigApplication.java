@@ -14,7 +14,7 @@ public class TesteFirebaseRemoteConfigApplication {
     public static void main(String[] args) {
         try {
             FileInputStream serviceAccount =
-                    new FileInputStream("../api_keys/gemini-android-chat-firebase-adminsdk-hyn11-fe1b51216e.json");
+                    new FileInputStream("../api_keys/<SEU-ARQUIVO>.json");
 
             FirebaseOptions options = new FirebaseOptions.Builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))
